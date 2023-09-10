@@ -4,7 +4,7 @@ import {
   CellType,
   randomPos,
   numCols,
-  numRows
+  numRows,
 } from "../utils/utils";
 import styled from "styled-components";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
@@ -203,6 +203,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 `;
 const Header = styled.div`
   font-size: 2rem;
